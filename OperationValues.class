@@ -1,0 +1,89 @@
+//
+// Source code recreated from a .class file by IntelliJ IDEA
+// (powered by FernFlower decompiler)
+//
+
+public class OperationsValues {
+    String number;
+    String operation;
+
+    public OperationsValues() {
+    }
+
+    public String getnumber() {
+        return this.number;
+    }
+
+    public String getoperation() {
+        return this.operation;
+    }
+
+    public void setnumber(String number) {
+        this.number = number;
+    }
+
+    public void setOperation(String operation) {
+        this.operation = operation;
+    }
+
+    public int makeIt_areal_number() {
+        switch (this.getnumber()) {
+            case "zero" -> {
+                return 0;
+            }
+            case "one" -> {
+                return 1;
+            }
+            case "two" -> {
+                return 2;
+            }
+            case "three" -> {
+                return 3;
+            }
+            case "four" -> {
+                return 4;
+            }
+            case "five" -> {
+                return 5;
+            }
+            case "six" -> {
+                return 6;
+            }
+            case "seven" -> {
+                return 7;
+            }
+            case "eight" -> {
+                return 8;
+            }
+            case "nine" -> {
+                return 9;
+            }
+            case "ten" -> {
+                return 10;
+            }
+            default -> {
+                return 0;
+            }
+        }
+    }
+
+    public char makeIt_areal_operation() {
+        switch (this.getoperation()) {
+            case "plus" -> {
+                return '+';
+            }
+            case "minus" -> {
+                return '-';
+            }
+            case "times" -> {
+                return '*';
+            }
+            case "dividedby" -> {
+                return '/';
+            }
+            default -> {
+                return '\u0000';
+            }
+        }
+    }
+}
